@@ -1,0 +1,3 @@
+morakab,1,9561,mmd,250$,mmdi,Adult Books,2,2,true,C:\Users\mhk\Desktop\ \project\background\m md.jpeg
+mmd,2,1505,mmdi,350$,mmdaz,Social Sciences,1,1,true,C:\Users\mhk\Desktop\offline library\img\5467428_1722.jpg
+book,1,6291,1,1,1,Books in Other Languages,1,1,true,C:\Users\mhk\Desktop\offline library\img\front-view-stacked-books-ladders-with-copy-space-education-day.jpg

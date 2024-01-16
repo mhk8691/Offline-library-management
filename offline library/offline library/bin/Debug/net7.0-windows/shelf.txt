@@ -1,0 +1,192 @@
+Literature,0,8853
+Science,1,3489
+Art and Architecture,2,1649
+History,3,5311
+Geography,4,1719
+Novel,5,4419
+Philosophy,6,2123
+Religion,7,4149
+Social Sciences,8,2388
+Psychology,9,6270
+Fiction,10,2354
+Short Stories,11,2837
+Poetry,12,5053
+Drama,13,8727
+Horror,14,7667
+Science Fiction,15,6603
+Historical Fiction,16,4845
+Biography,17,2787
+Educational,18,3194
+Tips and Tricks,19,6516
+Guides,20,2032
+Specialized Books,21,5589
+Thought-Provoking Novels,22,7977
+Children's Books,23,5291
+Young Adult Books,24,1844
+Adult Books,25,8507
+Persian Books,26,5686
+English Books,27,6059
+Books in Other Languages,28,8605
+Printed Books,29,2641
+E-books,30,9416
+Audiobooks,31,5377
+Literature,0,9728
+Science,1,4737
+Art and Architecture,2,1963
+History,3,2714
+Geography,4,3452
+Novel,5,8686
+Philosophy,6,9988
+Religion,7,8369
+Social Sciences,8,3611
+Psychology,9,2002
+Fiction,10,6255
+Short Stories,11,1876
+Poetry,12,7041
+Drama,13,6965
+Horror,14,4915
+Science Fiction,15,3370
+Historical Fiction,16,6612
+Biography,17,7434
+Educational,18,7849
+Tips and Tricks,19,3766
+Guides,20,2021
+Specialized Books,21,5816
+Thought-Provoking Novels,22,6720
+Children's Books,23,3095
+Young Adult Books,24,5376
+Adult Books,25,7261
+Persian Books,26,8712
+English Books,27,8172
+Books in Other Languages,28,2967
+Printed Books,29,4420
+E-books,30,7180
+Audiobooks,31,9770
+Literature,0,7264
+Science,1,3583
+Art and Architecture,2,9765
+History,3,7538
+Geography,4,3240
+Novel,5,9465
+Philosophy,6,2420
+Religion,7,2116
+Social Sciences,8,7337
+Psychology,9,8006
+Fiction,10,9548
+Short Stories,11,8075
+Poetry,12,3449
+Drama,13,3882
+Horror,14,3099
+Science Fiction,15,7232
+Historical Fiction,16,4428
+Biography,17,5931
+Educational,18,6739
+Tips and Tricks,19,4960
+Guides,20,2411
+Specialized Books,21,9156
+Thought-Provoking Novels,22,8544
+Children's Books,23,8477
+Young Adult Books,24,8477
+Adult Books,25,5155
+Persian Books,26,2531
+English Books,27,3780
+Books in Other Languages,28,2282
+Printed Books,29,4513
+E-books,30,9274
+Audiobooks,31,4183
+Literature,0,6675
+Science,1,3033
+Art and Architecture,2,8780
+History,3,4638
+Geography,4,6726
+Novel,5,8225
+Philosophy,6,5658
+Religion,7,1365
+Social Sciences,8,7528
+Psychology,9,9526
+Fiction,10,1119
+Short Stories,11,5008
+Poetry,12,8000
+Drama,13,1487
+Horror,14,5531
+Science Fiction,15,6690
+Historical Fiction,16,1789
+Biography,17,6939
+Educational,18,8522
+Tips and Tricks,19,9060
+Guides,20,9928
+Specialized Books,21,2446
+Thought-Provoking Novels,22,4652
+Children's Books,23,8727
+Young Adult Books,24,2584
+Adult Books,25,6375
+Persian Books,26,6009
+English Books,27,5611
+Books in Other Languages,28,2023
+Printed Books,29,3692
+E-books,30,3221
+Audiobooks,31,5174
+Literature,0,8112
+Science,1,9035
+Art and Architecture,2,2775
+History,3,9836
+Geography,4,5084
+Novel,5,9368
+Philosophy,6,6108
+Religion,7,3371
+Social Sciences,8,6589
+Psychology,9,9378
+Fiction,10,5660
+Short Stories,11,9224
+Poetry,12,5275
+Drama,13,1014
+Horror,14,6728
+Science Fiction,15,4844
+Historical Fiction,16,7282
+Biography,17,5196
+Educational,18,1976
+Tips and Tricks,19,5857
+Guides,20,3795
+Specialized Books,21,4768
+Thought-Provoking Novels,22,8131
+Children's Books,23,2030
+Young Adult Books,24,8028
+Adult Books,25,2267
+Persian Books,26,4816
+English Books,27,4934
+Books in Other Languages,28,1761
+Printed Books,29,4056
+E-books,30,9461
+Audiobooks,31,5695
+Literature,0,1846
+Science,1,6991
+Art and Architecture,2,7496
+History,3,4237
+Geography,4,4092
+Novel,5,4569
+Philosophy,6,9951
+Religion,7,3015
+Social Sciences,8,2423
+Psychology,9,4178
+Fiction,10,9220
+Short Stories,11,6238
+Poetry,12,2401
+Drama,13,5850
+Horror,14,2866
+Science Fiction,15,5014
+Historical Fiction,16,1809
+Biography,17,8279
+Educational,18,4956
+Tips and Tricks,19,1355
+Guides,20,4602
+Specialized Books,21,1007
+Thought-Provoking Novels,22,7964
+Children's Books,23,5485
+Young Adult Books,24,9547
+Adult Books,25,8282
+Persian Books,26,8284
+English Books,27,7075
+Books in Other Languages,28,1136
+Printed Books,29,3105
+E-books,30,1154
+Audiobooks,31,2747

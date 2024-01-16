@@ -1,0 +1,10 @@
+﻿[*.{cs,vb}]
+
+# IDE0017: Simplify object initialization
+dotnet_style_object_initializer = true
+
+# IDE0005: Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = none
+
+# IDE0059: Unnecessary assignment of a value
+csharp_style_unused_value_assignment_preference = unused_local_variable

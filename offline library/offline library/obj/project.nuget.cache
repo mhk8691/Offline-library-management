@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "y78dGicGHHUY3nEhZ4Uv0MYnmAyMhNNTFkHhOVCoHxTG5yKzCZbpqZY0qI6gxZDvx3njEYJ0fag9U0EDQU8wkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mhk\\.nuget\\packages\\chinook.backbuttonmanager\\1.1.4\\chinook.backbuttonmanager.1.1.4.nupkg.sha512",
+    "C:\\Users\\mhk\\.nuget\\packages\\chinook.backbuttonmanager.abstractions\\1.1.4\\chinook.backbuttonmanager.abstractions.1.1.4.nupkg.sha512",
+    "C:\\Users\\mhk\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\mhk\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\mhk\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\mhk\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
