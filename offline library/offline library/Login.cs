@@ -30,7 +30,7 @@ namespace offline_library
         {
             Form1 form1 = new Form1();
             form1.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void login_btn_Click(object sender, EventArgs e)
@@ -52,6 +52,9 @@ namespace offline_library
             foreach (string data in user_data2)
             {
                 string[] user_data3 = re2.Split(data);
+                if(username.Text != "" && password.Text != "")
+                {
+
                 if (user_data3[0] == username.Text && user_data3[1] == password.Text)
                 {
                     user.Show();
@@ -60,6 +63,7 @@ namespace offline_library
                     user.Instance.lbl.Text = username.Text;
                     user.Instance.lbl2.Text = password.Text;
                     return;
+                }
                 }
             }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y78dGicGHHUY3nEhZ4Uv0MYnmAyMhNNTFkHhOVCoHxTG5yKzCZbpqZY0qI6gxZDvx3njEYJ0fag9U0EDQU8wkw==",
+  "dgSpecHash": "E3GjAy4u4yWuwr8tYLVIXgJnwBeXftwXjrzAXPYDMigtwjai8dP2lVteWaIdc/b203H0F3REWC/0viX4uFHzFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj",
+  "projectFilePath": "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\offline library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhk\\.nuget\\packages\\chinook.backbuttonmanager\\1.1.4\\chinook.backbuttonmanager.1.1.4.nupkg.sha512",
     "C:\\Users\\mhk\\.nuget\\packages\\chinook.backbuttonmanager.abstractions\\1.1.4\\chinook.backbuttonmanager.abstractions.1.1.4.nupkg.sha512",

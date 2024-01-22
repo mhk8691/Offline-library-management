@@ -43,9 +43,6 @@
     <Compile Update="list users.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="list_Book.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="List_shelf.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("offline library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7db6824838a5222217820aefffaedab8e43dd5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("offline library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("offline library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

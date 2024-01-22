@@ -24,7 +24,7 @@ namespace offline_library
         {
             Form1 form1 = new Form1();
             form1.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void login_btn_Click(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace offline_library
             {
                 Admin_panel admin_Panel = new Admin_panel();
                 admin_Panel.Show();
-                this.Close();
+                this.Hide();
             }
             else
             {

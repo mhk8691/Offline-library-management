@@ -68,7 +68,7 @@ namespace offline_library
         {
             Form1 form1 = new Form1();
             form1.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void addUsersToolStripMenuItem_Click_1(object sender, EventArgs e)

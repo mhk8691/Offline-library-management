@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj": {}
+    "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\offline library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj": {
+    "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\offline library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj",
+        "projectUniqueName": "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\offline library.csproj",
         "projectName": "offline library",
-        "projectPath": "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\offline library.csproj",
+        "projectPath": "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\offline library.csproj",
         "packagesPath": "C:\\Users\\mhk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mhk\\Desktop\\offline library\\offline library\\offline library\\obj\\",
+        "outputPath": "C:\\Users\\mhk\\Desktop\\offline library\\Offline-library-management\\offline library\\offline library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mhk\\AppData\\Roaming\\NuGet\\NuGet.Config",

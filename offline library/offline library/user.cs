@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Numerics;
 using System.Security.Policy;
@@ -45,7 +46,26 @@ namespace offline_library
         string status = "";
         string path_lending = "";
         string filename_lending = "lending.txt";
+        static string RemoveLastCharacter(string input)
+        {
+            // اطمینان حاصل کنید که رشته حداقل یک حرف دارد
+            if (!string.IsNullOrEmpty(input) && input.Length > 1)
+            {
+                // استخراج همه‌ی حروف به جز حرف آخر و بازگرداندن رشته نهایی
+                return input.Substring(0, input.Length - 1);
+            }
+            else
+            {
+                // اگر رشته خالی یا null باشد یا فقط یک حرف داشته باشد، می‌توانید خروجی مورد نظر را تعیین کنید.
+                return "رشته ورودی نامعتبر است.";
+            }
+        }
 
+        static void RemoveStringFromList(string targetString, List<string> stringList)
+        {
+            // استفاده از متد RemoveAll برای حذف همه‌ی عناصر مطابق با رشته
+            stringList.RemoveAll(str => str == targetString);
+        }
         public void my_book()
         {
 
@@ -90,11 +110,15 @@ namespace offline_library
 
             ListViewItem selectindex = listView2.SelectedItems[0];
             int index = listView2.Items.IndexOf(selectindex);
-            if (index >= 0 && index < list.Count)
+            string rowString = "";
+            foreach (ListViewItem.ListViewSubItem subItem in listView2.Items[index].SubItems)
             {
-                list.RemoveAt(index);
-
+                rowString += subItem.Text + ",";
             }
+            int index2 = 0;
+            string resultString = RemoveLastCharacter(rowString);
+            RemoveStringFromList(resultString, list);
+
             listView2.Items.Remove(selectindex);
 
             File.WriteAllText(path, "");
@@ -124,12 +148,32 @@ namespace offline_library
         public void request()
 
         {
+            string NameBook2 = "";
+            string CodeBook2 = "";
+            string pathbook = "";
+            string fileName = "book list.txt";
+            pathbook = Path.Combine(Application.StartupPath, fileName);
+            string regx = @"[\r\n]+";
+            Regex re = new Regex(regx);
+            string user_deta = "";
+            if (File.Exists(pathbook))
+            {
+                user_deta = File.ReadAllText(pathbook);
+            }
+            string[] user_data2 = re.Split(user_deta);
+            string regx2 = @"\,";
+            Regex re2 = new Regex(regx2);
+            foreach (string data in user_data2)
+            {
+                string[] user_data3 = re2.Split(data);
+                NameBook2 = user_data3[0];
+            }
 
             string request_filename = "request.txt";
             string request_path = Path.Combine(Application.StartupPath, request_filename);
 
             string currentDate = DateTime.Now.ToShortDateString();
-            string strings = username_lbl.Text + "," + id + "," + NameBook + "," + CodeBook + "," + currentDate + "," + dateTimePicker1.Text + Environment.NewLine;
+            string strings = username_lbl.Text + "," + id + "," + NameBook2 + "," + CodeBook2 + "," + currentDate + "," + dateTimePicker1.Text + Environment.NewLine;
 
             File.AppendAllText(request_path, strings);
             MessageBox.Show("Your request has been registered");
@@ -216,7 +260,25 @@ namespace offline_library
             else if (tabControl.SelectedIndex == 1)
             {
                 listView1.Items.Clear();
-
+                string pathbook = "";
+                string fileName = "book list.txt";
+                pathbook = Path.Combine(Application.StartupPath, fileName);
+                string regx = @"[\r\n]+";
+                Regex re = new Regex(regx);
+                string user_deta = "";
+                if (File.Exists(pathbook))
+                {
+                    user_deta = File.ReadAllText(pathbook);
+                }
+                string[] user_data2 = re.Split(user_deta);
+                string regx2 = @"\,";
+                Regex re2 = new Regex(regx2);
+                foreach (string data in user_data2)
+                {
+                    string[] user_data3 = re2.Split(data);
+                    ListViewItem item = new ListViewItem(user_data3);
+                    listView1.Items.Add(item);
+                }
 
                 search_book();
 
@@ -327,7 +389,12 @@ namespace offline_library
 
         private void user_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            request_btn.Visible=true;
         }
     }
 }

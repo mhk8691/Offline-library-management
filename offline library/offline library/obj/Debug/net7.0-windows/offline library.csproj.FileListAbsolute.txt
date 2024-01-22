@@ -46,3 +46,51 @@ C:\Users\mhk\Desktop\offline library\offline library\offline library\obj\Debug\n
 C:\Users\mhk\Desktop\offline library\offline library\offline library\obj\Debug\net7.0-windows\offline_library.requests.resources
 C:\Users\mhk\Desktop\offline library\offline library\offline library\obj\Debug\net7.0-windows\offline library.sourcelink.json
 C:\Users\mhk\Desktop\offline library\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Request.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\offline library.exe
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\offline library.deps.json
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\offline library.runtimeconfig.json
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\offline library.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\offline library.pdb
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\Chinook.BackButtonManager.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\Chinook.BackButtonManager.Abstractions.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\Guna.UI2.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\System.Management.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.AssemblyReference.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.ResolveComReference.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.add_book.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Add_shelf.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Admin_panel.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Admin_login.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Condition_of_books.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Editprofile.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.edit_book.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.edit_shelf.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.edit_user.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Form1.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Request.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.lending.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.List_book.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.list_users.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.List_shelf.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Login.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.profile.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Properties.Resources.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Reclaime.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Records.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.requests.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Sign_up.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.user.resources
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.GenerateResource.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.AssemblyInfoInputs.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.AssemblyInfo.cs
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.CoreCompileInputs.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.sourcelink.json
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.CopyComplete
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\refint\offline library.dll
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.pdb
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.genruntimeconfig.cache
+C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\ref\offline library.dll

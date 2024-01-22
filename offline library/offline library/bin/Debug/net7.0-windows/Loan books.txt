@@ -1,3 +1,6 @@
 book,1,6291,1,1,1,Books in Other Languages,1,1,true
 morakab,1,9561,mmd,250$,mmdi,Adult Books,2,2,true
 morakab,1,9561,mmd,250$,mmdi,Adult Books,2,2,true
+morakab,1,9561,mmd,250$,mmdi,Adult Books,2,2,true
+mmd,2,1505,mmdi,350$,mmdaz,Social Sciences,1,1,true
+book,1,6291,1,1,1,Books in Other Languages,1,1,true
