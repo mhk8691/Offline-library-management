@@ -63,7 +63,6 @@ C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Add_shelf.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Admin_panel.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Admin_login.resources
-C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Condition_of_books.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Editprofile.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.edit_book.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.edit_shelf.resources
@@ -79,7 +78,6 @@ C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Properties.Resources.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Reclaime.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Records.resources
-C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.requests.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.Sign_up.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline_library.user.resources
 C:\Users\mhk\Desktop\offline library\Offline-library-management\offline library\offline library\obj\Debug\net7.0-windows\offline library.csproj.GenerateResource.cache

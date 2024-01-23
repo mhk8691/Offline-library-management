@@ -212,21 +212,7 @@ namespace offline_library
             reclaime.Show();
         }
 
-        private void condition_Click(object sender, EventArgs e)
-        {
-            Condition_of_books cob = new Condition_of_books();
 
-
-            if (cob == null || cob.IsDisposed)
-            {
-                cob = new Condition_of_books();
-
-            }
-
-
-
-            cob.Show();
-        }
 
         private void Records_Click(object sender, EventArgs e)
         {

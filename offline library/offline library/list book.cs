@@ -40,9 +40,12 @@ namespace offline_library
             Regex re2 = new Regex(regx2);
             foreach (string data in user_data2)
             {
-                string[] user_data3 = re2.Split(data);
-                ListViewItem item = new ListViewItem(user_data3);
-                listView1.Items.Add(item);
+                if(data != "")
+                {
+                    string[] user_data3 = re2.Split(data);
+                    ListViewItem item = new ListViewItem(user_data3);
+                    listView1.Items.Add(item);
+                }
             }
 
 

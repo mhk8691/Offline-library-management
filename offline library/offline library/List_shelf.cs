@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,48 +24,9 @@ namespace offline_library
 
         private void List_shelf_Shown(object sender, EventArgs e)
         {
-            string[] bookCategories = {
-                "Literature",
-                "Science",
-                "Art and Architecture",
-                "History",
-                "Geography",
-                "Novel",
-                "Philosophy",
-                "Religion",
-                "Social Sciences",
-                "Psychology",
-                "Fiction",
-                "Short Stories",
-                "Poetry",
-                "Drama",
-                "Horror",
-                "Science Fiction",
-                "Historical Fiction",
-                "Biography",
-                "Educational",
-                "Tips and Tricks",
-                "Guides",
-                "Specialized Books",
-                "Thought-Provoking Novels",
-                "Children's Books",
-                "Young Adult Books",
-                "Adult Books",
-                "Persian Books",
-                "English Books",
-                "Books in Other Languages",
-                "Printed Books",
-                "E-books",
-                "Audiobooks"
-            };
-                int count = 0;
-            foreach (string bookshelf_list in bookCategories)
-            {
-                Random rnd = new Random();
-                int random = rnd.Next(1000, 9999);
-                File.AppendAllText(fileName, bookshelf_list + "," + count +","+ random +Environment.NewLine);
-                count++;
-            }
+            
+                
+            
 
             path = Path.Combine(Application.StartupPath, fileName);
             string regx = @"[\r\n]+";
@@ -79,9 +41,12 @@ namespace offline_library
             Regex re2 = new Regex(regx2);
             foreach (string data in user_data2)
             {
-                string[] user_data3 = re2.Split(data);
-                ListViewItem item = new ListViewItem(user_data3);
-                listView1.Items.Add(item);
+                if(data != "")
+                {
+                    string[] user_data3 = re2.Split(data);
+                    ListViewItem item = new ListViewItem(user_data3);
+                    listView1.Items.Add(item);
+                }
             }
         }
 
@@ -98,15 +63,24 @@ namespace offline_library
 
             ListViewItem selectindex = listView1.SelectedItems[0];
             int index = listView1.Items.IndexOf(selectindex);
-            if (index >= 0 && index < list.Count)
+            List<string> list2 = new List<string>();
+
+            foreach (string data in list)
             {
-                list.RemoveAt(index);
+                if (data != "")
+                {
+                    list2.Add(data);
+                }
+            }
+            if (index >= 0 && index < list2.Count)
+            {
+                list2.RemoveAt(index);
 
             }
             listView1.Items.Remove(selectindex);
 
             File.WriteAllText(path, "");
-            foreach (string data in list)
+            foreach (string data in list2)
             {
 
                 File.AppendAllText(path, data + Environment.NewLine);

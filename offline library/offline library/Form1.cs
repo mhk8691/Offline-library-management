@@ -31,13 +31,13 @@ namespace offline_library
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
-            
-            
+
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           if(ProgressBar1.Value < 100)
+            if (ProgressBar1.Value < 100)
             {
                 ProgressBar1.Value++;
             }
@@ -48,6 +48,23 @@ namespace offline_library
                 Login_btn.Visible = true;
                 Admin_btn.Visible = true;
 
+            }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                if (MessageBox.Show("Are you sure want to exit?",
+                               "My First Application",
+                                MessageBoxButtons.OKCancel,
+                                MessageBoxIcon.Information) == DialogResult.OK)
+                    Environment.Exit(1);
+                else
+                {
+
+                    e.Cancel = true; // to don't close form is user change his mind
+                }
             }
         }
     }

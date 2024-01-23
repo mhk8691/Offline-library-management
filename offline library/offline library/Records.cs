@@ -35,9 +35,12 @@ namespace offline_library
             Regex re2 = new Regex(regx2);
             foreach (string data in lending2)
             {
-                string[] lending3 = re2.Split(data);
-                ListViewItem item = new ListViewItem(lending3);
-                listView1.Items.Add(item);
+                if(data != "")
+                {
+                    string[] lending3 = re2.Split(data);
+                    ListViewItem item = new ListViewItem(lending3);
+                    listView1.Items.Add(item);
+                }
             }
         }
         private void Records_Shown(object sender, EventArgs e)

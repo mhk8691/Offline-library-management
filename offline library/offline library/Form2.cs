@@ -37,37 +37,53 @@ namespace offline_library
 
             foreach (string data in request_list2)
             {
-                string[] request_list3 = re2.Split(data);
-                ListViewItem item = new ListViewItem(request_list3);
-                listView1.Items.Add(item);
+                if(data != "")
+                {
+                    string[] request_list3 = re2.Split(data);
+                    ListViewItem item = new ListViewItem(request_list3);
+                    listView1.Items.Add(item);
+                }
             }
         }
         public void delete()
         {
-            string fileName = "request.txt";
-            string path = Path.Combine(Application.StartupPath, fileName);
 
 
             string regx = @"[\r\n]+";
             Regex re = new Regex(regx);
+
+            string fileName = "request.txt";
+            string path = Path.Combine(Application.StartupPath, fileName);
+
+
+          
+
             string user_deta = File.ReadAllText(path);
 
             list.AddRange(re.Split(user_deta));
 
             ListViewItem selectindex = listView1.SelectedItems[0];
             int index = listView1.Items.IndexOf(selectindex);
-            
-                list.RemoveAt(index);
+            List<string> list2 = new List<string>();
+            foreach (string data in list)
+            {
+                if (data != "")
+                {
+                    list2.Add(data);
+                }
+            }
+            list2.RemoveAt(index);
 
-            
+
             listView1.Items.Remove(selectindex);
 
             File.WriteAllText(path, "");
-            foreach (string data in list)
+            foreach (string data in list2)
             {
 
                 File.AppendAllText(path, data + Environment.NewLine);
             }
+            Reject.Visible = false;
         }
         public void Accept_void()
         {

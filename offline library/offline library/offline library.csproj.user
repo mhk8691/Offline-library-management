@@ -13,9 +13,6 @@
     <Compile Update="Admin_login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Condition of books.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Editprofile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,9 +53,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Records.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="requests.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Sign up.cs">

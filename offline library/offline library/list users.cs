@@ -83,7 +83,10 @@ namespace offline_library
 
             foreach (string data2 in list)
             {
-                string[] userdata3 = re2.Split(data2);
+                if(data2 != "")
+                {
+                    string[] userdata3 = re2.Split(data2);
+                }
 
 
                
@@ -166,9 +169,12 @@ namespace offline_library
                 Regex re2 = new Regex(regx2);
                 foreach (string data in user_data2)
                 {
-                    string[] user_data3 = re2.Split(data);
-                    ListViewItem item = new ListViewItem(user_data3);
-                    listView1.Items.Add(item);
+                    if(data != "")
+                    {
+                        string[] user_data3 = re2.Split(data);
+                        ListViewItem item = new ListViewItem(user_data3);
+                        listView1.Items.Add(item);
+                    }
                 }
             }
         }
@@ -197,15 +203,23 @@ namespace offline_library
 
             ListViewItem selectindex = listView1.SelectedItems[0];
             int index = listView1.Items.IndexOf(selectindex);
-            if (index >= 0 && index < list.Count)
+            List<string> list2 = new List<string>();
+            foreach (string data in list)
             {
-                list.RemoveAt(index);
-
+                if (data != "")
+                {
+                    list2.Add(data);
+                }
+            }
+            if (index >= 0 && index < list2.Count)
+            {
+                list2.RemoveAt(index);
+                
             }
             listView1.Items.Remove(selectindex);
 
             File.WriteAllText(path, "");
-            foreach (string data in list)
+            foreach (string data in list2)
             {
 
                 File.AppendAllText(path, data + Environment.NewLine);

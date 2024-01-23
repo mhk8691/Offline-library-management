@@ -65,6 +65,9 @@ namespace offline_library
                 Regex re2 = new Regex(regx2);
                 foreach (string item in user_data2)
                 {
+                    if(item != "")
+                    {
+
                     string[] usersearch = re2.Split(item);
                     if (usersearch[0] == textbox_user)
                     {
@@ -73,6 +76,8 @@ namespace offline_library
                         UserId_lbl.Text = usersearch[10];
                         
 
+                    }
+                        
                     }
 
                 }
@@ -107,6 +112,9 @@ namespace offline_library
             {
                 foreach (string item in book_data2)
                 {
+                    if(item != "")
+                    {
+
                     string[] booksearch = re2.Split(item);
                     if (booksearch[0] == textbox_book)
                     {
@@ -126,6 +134,8 @@ namespace offline_library
                         label3.Visible = true;
                         dateTimePicker1.Visible = true;
                         Record.Visible = true;
+                    }
+                        
                     }
 
                 }

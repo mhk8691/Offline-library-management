@@ -83,11 +83,14 @@ namespace offline_library
             Regex re2 = new Regex(regx2);
             foreach (string data in lending2)
             {
-                string[] lending3 = re2.Split(data);
-                if (lending3[0] == username_lbl.Text && lending3[1] == id)
+                if(data != "")
                 {
-                    ListViewItem item = new ListViewItem(lending3);
-                    listView2.Items.Add(item);
+                    string[] lending3 = re2.Split(data);
+                    if (lending3[0] == username_lbl.Text && lending3[1] == id)
+                    {
+                        ListViewItem item = new ListViewItem(lending3);
+                        listView2.Items.Add(item);
+                    }
                 }
             }
 
@@ -115,7 +118,6 @@ namespace offline_library
             {
                 rowString += subItem.Text + ",";
             }
-            int index2 = 0;
             string resultString = RemoveLastCharacter(rowString);
             RemoveStringFromList(resultString, list);
 
@@ -150,23 +152,29 @@ namespace offline_library
         {
             string NameBook2 = "";
             string CodeBook2 = "";
-            string pathbook = "";
             string fileName = "book list.txt";
-            pathbook = Path.Combine(Application.StartupPath, fileName);
+            string book_path = Path.Combine(Application.StartupPath, fileName);
             string regx = @"[\r\n]+";
             Regex re = new Regex(regx);
-            string user_deta = "";
-            if (File.Exists(pathbook))
-            {
-                user_deta = File.ReadAllText(pathbook);
-            }
-            string[] user_data2 = re.Split(user_deta);
+            string user_deta = File.ReadAllText(book_path);
+            List<string> list = new List<string>();
+            list.AddRange(re.Split(user_deta));
             string regx2 = @"\,";
             Regex re2 = new Regex(regx2);
-            foreach (string data in user_data2)
+            ListViewItem selectindex = listView1.SelectedItems[0];
+            int index = listView1.Items.IndexOf(selectindex);
+                List<string> list_book = new List<string>();
+                List<string> list2 = new List<string>();
+            if (index >= 0 && index < list.Count)
             {
-                string[] user_data3 = re2.Split(data);
-                NameBook2 = user_data3[0];
+                list_book.Add(list[index]);
+                list2.Add(list[index]);
+            }
+            foreach (string item in list2)
+            {
+                string[] book_data = re2.Split(item);
+                NameBook2 = book_data[0];   
+                CodeBook2 = book_data[1];
             }
 
             string request_filename = "request.txt";
@@ -275,9 +283,12 @@ namespace offline_library
                 Regex re2 = new Regex(regx2);
                 foreach (string data in user_data2)
                 {
-                    string[] user_data3 = re2.Split(data);
-                    ListViewItem item = new ListViewItem(user_data3);
-                    listView1.Items.Add(item);
+                    if(data != "")
+                    {
+                        string[] user_data3 = re2.Split(data);
+                        ListViewItem item = new ListViewItem(user_data3);
+                        listView1.Items.Add(item);
+                    }
                 }
 
                 search_book();
@@ -288,7 +299,7 @@ namespace offline_library
 
                 Form1 form1 = new Form1();
                 form1.Show();
-                this.Close();
+                this.Hide();
             }
             else if (tabControl.SelectedIndex == 3)
             {
@@ -389,7 +400,16 @@ namespace offline_library
 
         private void user_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                if (MessageBox.Show("Are you sure want to exit?",
+                               "My First Application",
+                                MessageBoxButtons.OKCancel,
+                                MessageBoxIcon.Information) == DialogResult.OK)
+                    Environment.Exit(1);
+                else
+                    e.Cancel = true; // to don't close form is user change his mind
+            }
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
